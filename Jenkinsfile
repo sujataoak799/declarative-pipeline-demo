@@ -7,7 +7,7 @@ pipeline {
       }
     }
   } 
-    stage('Test') {
+     stage('Test') {
      parallel {
        stage('Test On Windows') {
          steps {
