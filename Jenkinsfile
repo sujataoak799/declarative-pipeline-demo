@@ -6,7 +6,7 @@ pipeline {
          echo "Hello World"
       }
     }
-  } 
+  
      stage('Test') {
      parallel {
        stage('Test On Windows') {
@@ -21,4 +21,5 @@ pipeline {
        }
      }
    }
+}
 }
